@@ -1,0 +1,24 @@
+{
+    "name": "Iddigital/Twig+Extensions",
+    "type": "Extension",
+    "description": "Custom extensions for twig pakage  ",
+    "keywords": ["codeignite","twig","codeigniter+twig","Extensions"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kora Jayaram",
+            "email": "kora.jayaram@gmail.com ",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.7",
+        "twig/twig":"~1.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Iddigital\\Twigextensions\\": "/src"
+        }
+    }
+
+}
